@@ -1,20 +1,12 @@
-FreeCodeCamp: URL Shortener Microservice
+FreeCodeCamp: Image Search Abstraction Layer
 =========================
 
-- I can pass a URL as a parameter and I will receive a shortened URL in the JSON response.
-- If I pass an invalid URL that doesn't follow the valid http://www.example.com format, the JSON response will contain an error instead.
-- When I visit that shortened URL, it will redirect me to my original link.
+- I can get the image URLs, alt text and page urls for a set of images relating to a given search string.
+- I can paginate through the responses by adding a ?offset=2 parameter to the URL.
+- I can get a list of the most recently submitted search strings.
 
-Create: 
-<br />https://roldeguz-url-shortener.glitch.me/new/http://www.google.com 
-<br />https://roldeguz-url-shortener.glitch.me/new/http://www.reddit.com
-<br /><br />
-Output: 
-<br />{ "original_url":"http://www.google.com", "short_url":"https://roldeguz-url-shortener.glitch.me/57112" } 
-<br />{ "original_url":"http://www.reddit.com", "short_url":"https://roldeguz-url-shortener.glitch.me/87565" }
-<br /><br />
 Usage: 
-<br />https://roldeguz-url-shortener.glitch.me/57112 will redirect to http://www.google.com 
-<br />https://roldeguz-url-shortener.glitch.me/87565 will redirect to http://www.reddit.com
+<br />https://roldeguz-image-search.glitch.me/imagesearch/lolcats%20funny?offset=10 for image search
+<br />https://roldeguz-image-search.glitch.me/latest/imagesearch/ will return recent searches
 <br /><br />
-27-June-2017, roldeguz
+13-July-2017, roldeguz
