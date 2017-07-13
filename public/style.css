@@ -1,0 +1,40 @@
+/* 
+  public/style.css
+  roldeguz
+  23-June-2017
+  freecodecamp API projects: image search abstraction layer 
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Consolas');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Consolas', helvetica, arial, sans-serif;
+  margin: 25px;
+}
+
+h1 {
+  font-weight: bold;
+  color: black;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+footer {
+  margin-top: 50px;
+  padding-top: 25px;
+  border-top: 1px solid lightgrey;
+}
+
+footer > a {
+  color: #BBBBBB;
+}
