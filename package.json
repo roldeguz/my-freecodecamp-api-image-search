@@ -20,7 +20,7 @@
     "node": "8.1.x"
   },
   "repository": {
-    "url": "https://github.com/roldeguz/my-freecodecamp-api-url-shortener"
+    "url": "https://github.com/roldeguz/my-freecodecamp-api-image-search"
   },
   "license": "MIT",
   "keywords": [
