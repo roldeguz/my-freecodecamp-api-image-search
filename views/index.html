@@ -1,0 +1,56 @@
+<!--
+  views/index.html
+  roldeguz
+  30-June-2017
+  freecodecamp API projects: image search abstraction layer
+-->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>FreeCodeCamp: Image Search Abstraction Layer</title>
+    <meta name="description" content="A cool thing made with Glitch">
+    <link id="favicon" rel="icon" href="https://glitch.com/edit/favicon-app.ico" type="image/x-icon">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    <header>
+      <h1>
+        Image Search Abstraction Layer
+      </h1>
+    </header>
+
+    <main>
+      <p>
+        User Stories:
+        <ul>
+          <li>I can get the image URLs, alt text and page urls for a set of images relating to a given search string.</li>            
+          <li>I can paginate through the responses by adding a ?offset=2 parameter to the URL.</li>
+          <li>I can get a list of the most recently submitted search strings.</li>
+        </ul>
+      </p>      
+      <p>
+        Usage:        
+        <br />https://roldeguz-image-search.glitch.me/imagesearch/lolcats%20funny?offset=10 for image search
+        <br />https://roldeguz-image-search.glitch.me/latest/imagesearch/ will return recent searches
+      </p>
+    </main>
+
+    <footer>
+      Created by
+      <a href="https://github.com/roldeguz/">
+        roldeguz
+      </a>
+    </footer>
+
+    <!-- Your web-app is https, so your scripts need to be too -->
+    <script src="https://code.jquery.com/jquery-2.2.1.min.js"
+            integrity="sha256-gvQgAFzTH6trSrAWoH1iPo9Xc96QxSZ3feW6kem+O00="
+            crossorigin="anonymous"></script>
+    <script src="/client.js"></script>
+
+  </body>
+</html>
